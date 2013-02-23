@@ -1,0 +1,90 @@
+ '#container' : {
+    height              : Ti.UI.Size
+},
+'#instructions' : {
+    width               : Ti.Platform.displayCaps.platformWidth,
+    height              : Ti.UI.Size
+}
+'#close'     : {
+    color               : '#fff',
+    right               : 20,
+    top                 : 20,
+    width               : Ti.UI.Size,
+    height              : 30,
+    font                : {
+        fontFamily          : 'HelveticaNeue-UltraLight',
+        fontSize            : 50,
+        fontWeight          : 'bold'
+    }
+},
+'#close[platform=android]' : {
+    top         : 30,
+    height      : Ti.UI.Size,
+    font        : {
+        fontFamily  : 'Roboto-Thin',
+        fontSize    : 50,
+        fontWeight  : 'bold'
+    }
+},
+'.wrap'         : {
+    layout              : 'vertical',
+    top                 : 50,
+    left                : '3%',
+    width               : '94%',
+    height              : Ti.UI.Size
+},
+'.wrap[platform=android]' : {
+    top                 : 90
+},
+'Label'         : {
+    color               : '#fff'
+}
+'.heading'      : {
+    top                 : 20,
+    textAlign           : Ti.UI.TEXT_ALIGNMENT_CENTER,
+    width               : Ti.UI.Size,
+    font                : {
+        fontFamily          : 'HelveticaNeue-UltraLight',
+        fontSize            : 33
+    }
+},
+'.heading[platform=android]' : {
+    font        : {
+        fontFamily  : 'Roboto-Thin',
+        fontSize    : 33
+    }
+},
+'.content' : {
+    color               : '#fff',
+    top                 : 15,
+    left                : 20,
+    right               : 20,
+    width               : Ti.UI.Size,
+    height              : Ti.UI.Size,
+    textAlign           : Ti.UI.TEXT_ALIGNMENT_LEFT,
+    font                : {
+        fontFamily          : 'HelveticaNeue-UltraLight',
+        fontSize            : 22
+    }
+},
+'.content[platform=android]' : {
+    font        : {
+        fontFamily  : 'Roboto-Thin',
+        fontSize    : 22
+    }
+},
+'.link'                 : {
+    top                 : 25,
+    font                : {
+        fontFamily          : 'HelveticaNeue-Medium',
+        fontSize            : 20
+    }
+},
+'.link[platform=android]' : {
+    font        : {
+        fontFamily  : 'Roboto-Thin',
+        fontSize    : 20,
+        fontStyle   : 'italic',
+        fontWeight  : 'bold'
+    }
+}

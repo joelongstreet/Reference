@@ -1,0 +1,15 @@
+<Alloy>
+    <View id='container'>
+        <ScrollableView id='instructions'>
+            <View class='wrap'>
+                <Label class='heading'>1.014 Reference</Label>
+                <Label class='content'>Sample</Label>
+            </View>
+            <View class='wrap'>
+                <Label class='heading'>Page 2</Label>
+                <Label class='content'>Sample 2</Label>
+            </View>
+        </ScrollableView>
+        <Label id='close'>×</Label>
+    </View>
+</Alloy>

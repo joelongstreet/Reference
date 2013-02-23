@@ -1,8 +1,16 @@
-".container": {
-	backgroundColor:"white"
+'Window'    : {
+    backgroundGradient : {
+        type        : 'linear',
+        colors      : ['#75283c', '#e1a521'],
+        startPoint  : {x:0, y:0},
+        endPoint    : {x:0, y:Ti.Platform.displayCaps.platformHeight},
+        backFillStart:false
+    },
 },
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
-} 
+'ImageView' : {
+    backgroundColor     : '#000',
+    backgroundImage     : '/load_screen.png',
+    top                 : -20,
+    width               : Ti.Platform.displayCaps.platformWidth,
+    height              : Ti.Platform.displayCaps.platformHeight
+}

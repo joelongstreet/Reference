@@ -1,5 +1,8 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+	<Window>
+        <View id='wrapper'>
+            <ScrollableView id='container'></ScrollableView>
+            <ImageView id='startup'></ImageView>
+        </View>
 	</Window>
 </Alloy>
