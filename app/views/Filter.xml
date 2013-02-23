@@ -1,2 +1,6 @@
 <Alloy>
+    <Label id='title'>Filter By</Label>
+    <TableView></TableView>
+    <ImageView id='home'></ImageView>
+    <Label id='close'></Label>
 </Alloy>

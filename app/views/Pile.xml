@@ -1,2 +1,5 @@
 <Alloy>
+    <Label id='title'></Label>
+    <TableView></TableView>
+    <ImageView id='sort'></ImageView>
 </Alloy>
