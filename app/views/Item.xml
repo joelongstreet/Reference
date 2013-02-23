@@ -1,5 +1,5 @@
 <Alloy>
-    <Label id='title'></Label>
+    <Label class='title' id='title'></Label>
     <TableView></TableView>
     <ImageView id='home'></ImageView>
     <Label id='close'></Label>

@@ -1,5 +1,5 @@
 <Alloy>
-    <Label id='title'>Filter By</Label>
+    <Label class='title' id='title'>Filter By</Label>
     <TableView></TableView>
     <ImageView id='home'></ImageView>
     <Label id='close'></Label>

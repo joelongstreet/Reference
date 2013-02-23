@@ -1,0 +1,15 @@
+'.title'     : {
+    width       : Ti.UI.Size,
+    height      : Ti.UI.Size,
+    color       : '#fff'
+    font        : {
+        fontFamily  : 'HelveticaNeue-UltraLight',
+        fontSize    : 33
+    }
+},
+'.title[platform=android]'    : {
+    font        : {
+        fontFamily  : 'Roboto-Thin',
+        fontSize    : 36
+    }
+}
